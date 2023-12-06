@@ -39,7 +39,7 @@ function concluirTarefa(posicao) {
 
 function deletarItem(posicao) { // função passada na imagem deletar
     listaItens.splice(posicao, 1) //aqui eu coloco quem eu quero deletar e quantos items a partir daquela posição
-    mostrarTarefas() //é preciso chamar essa função novamente para ele enchegar a mesma
+    mostrarTarefas() //é preciso chamar essa função novamente para ele enchergar a mesma
 }
 
 function recarregarTarefas() {
