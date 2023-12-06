@@ -6,12 +6,14 @@
     outline: none;
 }
 body{
-    /* background: url(./img/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg); */
+    background-image: url(img/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg);
+    
+    background-repeat: no-repeat, repeat;
 }
 
 .container{
     background-color: #d1d1d1;
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
     padding: 20px;
     margin: 100px auto;
@@ -37,12 +39,12 @@ body{
     cursor: pointer;
     font-weight: 700;
 }
-/* .button-add-task2{
+.button-add-task2{
     display: none;
 }
 .container2{
     display: none;
-} */
+}
 
 .button-add-task:hover{
     opacity: 0.8;
@@ -85,7 +87,7 @@ img{
     text-decoration: line-through;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 888px) {
     .container{
         background-color: #d1d1d1;
         width: 80%;

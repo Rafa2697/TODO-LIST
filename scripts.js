@@ -1,4 +1,5 @@
 const button = document.querySelector('.button-add-task');
+const button2 = document.querySelector('.button-add-task2');
 const input = document.querySelector('.input-task');
 const listaCompleta = document.querySelector('.list-tasks')
 
@@ -53,3 +54,4 @@ function recarregarTarefas() {
 }
 recarregarTarefas()
 button.addEventListener('click', adicionarNovaTarefa)
+button2.addEventListener('click', adicionarNovaTarefa)
