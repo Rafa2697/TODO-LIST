@@ -37,12 +37,12 @@ body{
     cursor: pointer;
     font-weight: 700;
 }
-.button-add-task2{
+/* .button-add-task2{
     display: none;
 }
 .container2{
     display: none;
-}
+} */
 
 .button-add-task:hover{
     opacity: 0.8;
