@@ -1,4 +1,5 @@
 const button = document.querySelector('.button-add-task');
+const button2 = document.querySelector('.button-add-task2');
 const input = document.querySelector('.input-task');
 const listaCompleta = document.querySelector('.list-tasks')
 
@@ -38,7 +39,7 @@ function concluirTarefa(posicao) {
 
 function deletarItem(posicao) { // função passada na imagem deletar
     listaItens.splice(posicao, 1) //aqui eu coloco quem eu quero deletar e quantos items a partir daquela posição
-    mostrarTarefas() //é preciso chamar essa função novamente para ele enchegar a mesma
+    mostrarTarefas() //é preciso chamar essa função novamente para ele enchergar a mesma
 }
 
 function recarregarTarefas() {
@@ -53,3 +54,4 @@ function recarregarTarefas() {
 }
 recarregarTarefas()
 button.addEventListener('click', adicionarNovaTarefa)
+button2.addEventListener('click', adicionarNovaTarefa)
